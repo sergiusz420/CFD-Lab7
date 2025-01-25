@@ -1,0 +1,92 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Montserrat", serif;
+	font-size: 16px;
+	background-color: #f6f6f6;
+}
+h1 {
+    text-align: center;
+	margin-bottom: 40px;
+}
+
+h2 {
+	background-color: #bdabd8;
+}
+
+.table {
+    display: flex;
+    justify-content: center; 
+}
+
+.form {
+    display: flex;
+    justify-content: center; 
+}
+
+.spacing {
+	margin-bottom: 40px;
+}
+
+.canyon-color {
+	color: rgb(0, 54, 26);
+}
+
+.reef-color {
+	color: blue;
+}
+
+.everest-color {
+	color: grey;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(15, 130, 187);
+}
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 20px 0;
+}
+
+th,
+td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+form div {
+	margin-bottom: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 5px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+form input[type="submit"] {
+	background-color: #258166;
+	color: rgb(255, 255, 255);
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+form input[type="submit"]:hover {
+	background-color: #443131;
+    color: green;
+}
